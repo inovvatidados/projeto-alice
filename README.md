@@ -1,1 +1,1 @@
-## Inicialização da Documentação do Projeto A.L.I.C.E
+## Documentação do Projeto A.L.I.C.E
