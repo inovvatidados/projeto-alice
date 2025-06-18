@@ -1,0 +1,19 @@
+# Ambientes virtuais
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# Configs locais
+.env
+
+# Notebooks
+.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+
+# Cache e logs
+*.log
+*.db
