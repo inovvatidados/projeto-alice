@@ -1,22 +1,22 @@
 # Banco de dados
-pyodbc                    # Para conectar ao SQL Server
-sqlalchemy                # ORM e conexão com bancos relacionais
-clickhouse-connect        # Driver para conectar e inserir dados no ClickHouse
+pyodbc==5.2.0                     # Para conectar ao SQL Server
+sqlalchemy==2.0.41                # ORM e conexão com bancos relacionais
+clickhouse-connect==0.8.17        # Driver para conectar e inserir dados no ClickHouse
 
 # Manipulação de dados
-pandas                    # Para manipulação e transformação de dados
+pandas==2.3.0                     # Para manipulação e transformação de dados
 
 # IA e NLP
-openai                    # SDK oficial da OpenAI
-langchain                 # Framework para construir chatbots e assistentes com LLMs
+openai==1.88.0                    # SDK oficial da OpenAI
+langchain==0.3.25                 # Framework para construir chatbots e assistentes com LLMs
 
 # Utilitários
-python-dotenv             # Para carregar variáveis de ambiente do arquivo .env
-tqdm                      # Barra de progresso para scripts longos
+python-dotenv==1.1.0              # Para carregar variáveis de ambiente do arquivo .env
+tqdm==4.67.1                      # Barra de progresso para scripts longos
 
-# Desenvolvimento / testes
-jupyter                   # Para notebooks exploratórios
-pytest                    # Para testes automatizados (se desejar implementar)
+# Desenvolvimento / Testes
+jupyter==1.1.1                    # Para notebooks exploratórios
+pytest==8.4.0                     # Para testes automatizados (se desejar implementar)
 
 # Outros (opcional)
-requests                  # Caso precise consumir APIs REST (por exemplo, em futuras features)
+requests==2.32.4                  # Caso precise consumir APIs REST (por exemplo, em futuras features)
