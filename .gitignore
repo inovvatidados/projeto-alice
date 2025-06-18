@@ -17,3 +17,5 @@ __pycache__/
 # Cache e logs
 *.log
 *.db
+
+# ETL
