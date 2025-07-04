@@ -5,6 +5,18 @@ clickhouse-connect==0.8.17        # Driver para conectar e inserir dados no Clic
 
 # Manipulação de dados
 pandas==2.3.0                     # Para manipulação e transformação de dados
+pyspark==4.0.0
+
+# Visualização de Dados
+seaborn==0.13.2
+matplotlib==3.10.3
+
+
+pytorch==1.0.2
+scikit-learn==1.7.0
+scipy==1.16.0
+plotly==6.2.0
+numpy==2.3.1
 
 # IA e NLP
 openai==1.88.0                    # SDK oficial da OpenAI
@@ -19,4 +31,7 @@ jupyter==1.1.1                    # Para notebooks exploratórios
 pytest==8.4.0                     # Para testes automatizados (se desejar implementar)
 
 # Outros (opcional)
-requests==2.32.4                  # Caso precise consumir APIs REST (por exemplo, em futuras features)
+requests==2.32.4                  # Caso precise consumir APIs REST (por exemplo, em futuras features).
+
+# Desenvolvimento Web
+Flask==3.1.1
