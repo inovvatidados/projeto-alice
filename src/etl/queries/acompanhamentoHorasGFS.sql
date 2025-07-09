@@ -13,7 +13,7 @@ CREATE TABLE DW_AT.alice.acompanhamentoHorasGFS (
     mesAno DATE NOT NULL,
     nomeMes VARCHAR(20) NOT NULL,
     ano INT NOT NULL,
-    CONSTRAINT PK_acompanhamentoHorasGFS PRIMARY KEY (nome, mesAno)
+    CONSTRAINT PK_acompanhamentoHorasGFS PRIMARY KEY (mesAno, nome)
 );    
     
 -- Scrip de Extração e Inserção de Dados
